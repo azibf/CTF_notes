@@ -1,0 +1,10 @@
+---
+
+services:
+  heap1:
+    privileged: true
+    container_name: heap1
+    read_only: true
+    build: .
+    ports:
+      - "3001:3001"
